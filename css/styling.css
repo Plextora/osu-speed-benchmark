@@ -1,0 +1,50 @@
+
+html {
+    height: 100%;
+    display: flex;
+}
+
+body {
+    margin: auto;
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: #07050a;
+    perspective: 500px;
+    color: #ffffe7;
+
+}
+
+
+a {
+    color: #8cb6ec
+}
+
+
+#ui
+{
+    text-align: center;
+}
+#submit
+{
+    background-color: #9b7469;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: poiner;
+    border:none;
+    border-radius:2px;
+    font-size: 20px;
+}
+#submit:hover {
+    border: none;
+    background: #b09e99;
+}
+#streamSettings
+{
+    font-size: 20px;
+}
+input
+{
+    text-align: center;
+}
+footer
+{
+    text-align: right;
+}

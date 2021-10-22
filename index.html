@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>osu! speed benchmark</title>
+        <meta name="description" content="A osu! streaming speed benchmark based on jasonw's original website">
+        <meta name="viewport" content="initial-scale=1"/>
+        <meta name="viewport" content="width=device-width"/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"/></script>
+        <script src="js/app.js"/></script>
+        <link rel="stylesheet" href="css/styling.css">
+    </head>
+    <body>
+        <div id = "ui">
+            <h2>osu! speed benchmark</h2>
+            <form id = "streamSettings">
+                Number of clicks<br>
+                <input id = "clickNum" type="number" min="3"/><br><br>
+                Key 1<br>
+                <input id = "key1" maxlength="1"/><br><br>
+                Key 2<br>
+                <input id = "key2" maxlength="1"/><br><br>
+                <button id = "submit" onclick = "beginTest()" type="button">Begin Test</button><br>
+                <div id = "status">The timer starts when you make your first click.</div>
+            </form>
+            <h3>Your Results:</h3>
+            <div id = "Result">
+                Tap Speed: 0 taps / 0 seconds.<br>
+                Stream Speed: 0 bpm.<br>
+                Unstable Rate: 0.
+            </div>
+        </div>
+        <br>
+        <footer>
+            <p>Written by jasonw</p>
+            <p>CSS by Plextora</p>
+            <p>MIT Licensed</p>
+            <a href="https://github.com/jaasonw/osuStreamSpeed.js">View Source on Github</a><br>
+            <a href="https://ko-fi.com/wayson">Get the original creator a coffee!</a>
+        </footer>
+    </body>
+</html>
